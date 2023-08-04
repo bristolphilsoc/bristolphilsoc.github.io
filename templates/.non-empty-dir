@@ -1,0 +1,1 @@
+if templates/ is empty then the github action falls over
