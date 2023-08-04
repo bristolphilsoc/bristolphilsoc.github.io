@@ -8,6 +8,7 @@ compile_sass = true
 build_search_index = true
 
 theme = "zerm"
+title = "Title title title"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -15,4 +16,11 @@ theme = "zerm"
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
+theme_color = "orange"
+main_menu = [
+#  { url = "/about/", name = "about" },
+#  { url = "/contact/", name = "contact" },
+#  { url = "/events/", name = "events" },
+]
+# the title at the top left of every page
+logo_text = "title again"
